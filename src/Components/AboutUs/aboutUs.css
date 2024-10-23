@@ -1,0 +1,141 @@
+.about-us {
+  font-family: "Roboto", sans-serif;
+  padding: 50px 20px;
+  background: linear-gradient(to bottom right, #e0f2fe, #e0e7ff);
+}
+
+.academy-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.faculty-section {
+  text-align: center;
+}
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.faculty-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.faculty-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.faculty-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.faculty-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #2c3e50;
+  transition: transform 0.3s ease;
+}
+
+.faculty-card:hover .faculty-image {
+  transform: scale(1.1);
+}
+
+.faculty-details {
+  padding: 0 20px;
+}
+
+.faculty-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.faculty-title {
+  font-size: 1.1rem;
+  color: #95a5a6;
+  margin-bottom: 10px;
+}
+
+.faculty-bio {
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+.see-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.see-more-button {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.see-more-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.see-more-button:active {
+  transform: translateY(1px);
+}
+
+/* Animations */
+.faculty-card {
+  position: relative;
+}
+
+.faculty-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.05);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.faculty-card:hover::before {
+  opacity: 1;
+}
