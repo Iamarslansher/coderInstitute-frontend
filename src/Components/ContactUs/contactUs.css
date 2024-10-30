@@ -26,7 +26,7 @@
 .contact-info h1 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
-  color: #2c3e50;
+  color: #2980b9;
 }
 
 .info-item {
@@ -48,22 +48,24 @@
 .social-media h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #2c3e50;
+  color: #2980b9;
 }
 
 .social-icons {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .social-icon {
   font-size: 1.5rem;
-  color: #3498db;
+  color: #2c3e50;
   transition: color 0.3s ease;
+  transition: all 0.3s ease-in;
 }
 
 .social-icon:hover {
   color: #2980b9;
+  transform: translateY(-6px);
 }
 
 .location-image {
@@ -154,6 +156,8 @@
 
   .footer-content {
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .footer-section {

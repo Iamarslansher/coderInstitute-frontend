@@ -2,6 +2,8 @@
 .achievements-container {
   min-height: 100vh;
   background: linear-gradient(to bottom, #0a1930, #000000);
+  /* background: linear-gradient(to bottom right, #e0f2fe, #e0e7ff); */
+
   padding: 2rem;
   font-family: Arial, sans-serif;
 }

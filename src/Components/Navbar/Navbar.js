@@ -37,7 +37,7 @@ const Navbar = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="logo-text">Coder Institute</h1>
+            <h1 className="logo-text">Lab of Code</h1>
           </motion.div>
           <div className="nav-links">
             <NavItem
@@ -86,22 +86,22 @@ const Navbar = () => {
         <NavItem
           icon={<FaHome className="nav-icon" />}
           text="Home"
-          href="/home"
+          href="#Home"
         />
         <NavItem
           icon={<FaInfoCircle className="nav-icon" />}
           text="About"
-          href="/aboutUs"
+          href="#about"
         />
         <NavItem
           icon={<FaBook className="nav-icon" />}
           text="Courses"
-          href="/courses"
+          href="#Courses"
         />
         <NavItem
           icon={<FaEnvelope className="nav-icon" />}
           text="Contact"
-          href="/contactUs"
+          href="#contact"
         />
         <NavItem
           icon={<PiStudentFill className="nav-icon" />}

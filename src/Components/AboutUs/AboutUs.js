@@ -45,13 +45,17 @@ const AboutUs = () => {
     <div id="about">
       <div className="about-us">
         <section className="academy-section">
-          <h1 className="section-title">About Our Institute</h1>
+          {/* <h1 className="section-title">About Our Institute</h1> */}
+          <h1 className="section-title">What is Lab of Code?</h1>
           <p className="section-description">
             Our institute is dedicated to providing the best education in web
             development, covering both frontend and backend technologies. We
             focus on practical, project-based learning to ensure students master
             real-world skills. Join us to become a full-stack developer with
-            expertise in modern tools and frameworks.
+            expertise in modern tools and frameworks. Our curriculum is designed
+            to equip you with the skills needed to succeed in the ever-evolving
+            tech industry. From HTML and CSS to JavaScript, React, and Node.js,
+            we cover it all. Unlock your web development potential with us.
           </p>
         </section>
 

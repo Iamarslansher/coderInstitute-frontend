@@ -30,7 +30,7 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              Welcome to Coder Institute
+              Welcome to Lab of Code
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: -20 }}
@@ -44,6 +44,7 @@ const Home = () => {
               className="contact-button"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              href="#contact"
             >
               <FaEnvelope className="button-icon" />
               Contact Us
@@ -59,7 +60,7 @@ const Home = () => {
           </motion.div>
         </div>
 
-        <h2>Why Choose Coder Institute?</h2>
+        <h2>Why Choose Lab of Code?</h2>
 
         <div className="benefits-grid">
           <BenefitCard

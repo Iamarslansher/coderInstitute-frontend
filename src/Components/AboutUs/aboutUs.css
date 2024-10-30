@@ -2,6 +2,7 @@
   font-family: "Roboto", sans-serif;
   padding: 50px 20px;
   background: linear-gradient(to bottom right, #e0f2fe, #e0e7ff);
+  /* background: linear-gradient(to bottom, #0a1930, #000000); */
 }
 
 .academy-section {
@@ -12,15 +13,17 @@
 .section-title {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #2c3e50;
+  color: #312e81;
   margin-bottom: 20px;
 }
 
 .section-description {
-  font-size: 1.1rem;
-  color: #7f8c8d;
-  max-width: 700px;
+  font-size: 1.3rem;
+  color: black;
+  max-width: 800px;
   margin: 0 auto;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 .faculty-section {
@@ -80,6 +83,10 @@
   margin-bottom: 10px;
 }
 
+.faculty-card:hover .faculty-name {
+  color: #2980b9;
+}
+
 .faculty-title {
   font-size: 1.1rem;
   color: #95a5a6;
@@ -90,6 +97,10 @@
   font-size: 0.95rem;
   color: #7f8c8d;
   line-height: 1.5;
+}
+
+.faculty-card:hover .faculty-title {
+  color: black;
 }
 
 .see-more-container {

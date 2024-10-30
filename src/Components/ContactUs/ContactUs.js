@@ -23,7 +23,7 @@ const ContactUs = () => {
             </div>
             <div className="info-item">
               <FaEnvelope className="icon" />
-              <p>info@codersinstitute.com</p>
+              <p>info@labofcode.com</p>
             </div>
             <div className="info-item">
               <FaMapMarkerAlt className="icon" />

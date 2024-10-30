@@ -1,4 +1,3 @@
-// src/components/AchievementsAccordion.jsx
 import React, { useState } from "react";
 import "./achievementsAccordion.css";
 
